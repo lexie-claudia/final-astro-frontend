@@ -73,7 +73,7 @@ const RegistrationForm = () => {
             formData.append('phoneNumber', phoneNumberField.value);
 
             fetch(
-                `http://localhost:7000/users/create`,
+                `${process.env.REACT_APP_BACKEND}/users/create`,
                 {
                     method: 'POST',
                     body:formData
