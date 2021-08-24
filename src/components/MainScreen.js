@@ -9,17 +9,17 @@ const MainScreen = () => {
     const box = [
         {
           header: 'Join our Network',
-          title: 'Get access to comments and reviews from thousands of students about their internships',
+          title: 'Get access to comments and reviews from thousands of students about their internships.',
           color: 'success'                                                    
         },
         {
           header: 'Need Advice?',
-          title: 'Our Career Advisors will help you find your streghts and which roles would be best for you',
+          title: 'Our Career Advisors will help you find your streghts and which roles would be best for you.',
           color: 'dark'
         },
         {
             header: 'No Nasty Surprises',
-            title: 'Our mentor programme gives you all the top tips to get ready for your internship',
+            title: 'Our mentor programme gives you all the top tips to get ready for your internship.',
             color: 'danger'
         }
       ]
