@@ -10,7 +10,7 @@ const MainScreen = () => {
         {
           header: 'Join our Network',
           title: 'Get access to comments and reviews from thousands of students about their internships',
-          color: 'secondary'                                                    
+          color: 'success'                                                    
         },
         {
           header: 'Need Advice?',
@@ -20,7 +20,7 @@ const MainScreen = () => {
         {
             header: 'No Nasty Surprises',
             title: 'Our mentor programme gives you all the top tips to get ready for your internship',
-            color: 'secondary'
+            color: 'danger'
         }
       ]
     return (
