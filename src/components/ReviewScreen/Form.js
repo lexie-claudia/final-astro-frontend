@@ -35,7 +35,7 @@ export const Form = ({
   return (
     <form className="form" onSubmit={editing ? handleUpdate : handleSubmit}>
       <h2>Leave a Review</h2>
-      <label htmlFor="restaurant">University Name</label>
+      <label htmlFor="restaurant">Your University Name</label>
       <input
         type="text"
         placeholder="University name"
@@ -45,10 +45,20 @@ export const Form = ({
         value={form.restaurant}
         onChange={handleChange}
       />
+      <label htmlFor="company">Company your Interned at</label>
+      <input
+        type="text"
+        placeholder="Company name"
+        id="company"
+        name="company"
+        autoComplete="off"
+        value={form.company}
+        onChange={handleChange}
+      />
       <label htmlFor="review">Review</label>
       <textarea
         value={form.review}
-        placeholder="What'd you think?"
+        placeholder="What do you think?"
         id="review"
         name="review"
         onChange={handleChange}
@@ -57,5 +67,6 @@ export const Form = ({
     </form>
   );
 };
+
 
 export default Form;

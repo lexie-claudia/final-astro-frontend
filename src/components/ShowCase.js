@@ -11,7 +11,7 @@ const ShowCase = (props) => {
                 <div className="container">
                     <div className="d-sm-flex align-items-center justify-content-between">
                         <div>
-                            <h1>LAND YOUR <span className="text-warning"> FIRST INTERNSHIP </span></h1>
+                            <h1>LAND YOUR <span className="text-danger"> FIRST INTERNSHIP </span></h1>
                             <p className="lead my-4">
                                 {props.desc1}
                             </p>
