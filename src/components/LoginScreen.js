@@ -1,9 +1,12 @@
 import React from 'react'
+import LoginForm from './LoginForm'
+import RegistarionFormnavBar from './RegistrationScreenComponents/RegistrationFormNavBar';
 
 const LoginScreen = () => {
     return (
         <div>
-            <h1>Login here</h1>
+            <RegistarionFormnavBar logo="Home"/>
+            <LoginForm />
         </div>
     )
 }
