@@ -13,7 +13,9 @@ function RegistrationScreen() {
                     <RegistrationForm/>
                 </div>
                 <div className="col-12 col-md-6">
-                    <img className="registrationImage" src="../img/working_from.svg"/>
+                    <img className="img-fluid w-60 h-50 d-none d-md-block registrationImage" 
+                    style={{"marginTop":"230px","marginLeft":"110px"}}
+                    src="../img/working_from.svg"/>
                 </div>
             </div>       
            
