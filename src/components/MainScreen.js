@@ -8,26 +8,26 @@ import Footer from './Footer';
 const MainScreen = () => {
     const box = [
         {
-          header: 'In Person',
-          title: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit',
-          color: 'dark'                                                    
+          header: 'Join our Network',
+          title: 'Get access to comments and reviews from thousands of students about their internships',
+          color: 'secondary'                                                    
         },
         {
-          header: 'In person',
-          title: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit',
-          color: 'secondary'
+          header: 'Need Advice?',
+          title: 'Our Career Advisors will help you find your streghts and which roles would be best for you',
+          color: 'dark'
         },
         {
-            header: 'In Person',
-            title: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit',
+            header: 'No Nasty Surprises',
+            title: 'Our mentor programme gives you all the top tips to get ready for your internship',
             color: 'secondary'
         }
       ]
     return (
         <div>
-            <NavBar title='Frontend Bootcamp'/>
+            <NavBar title='Our Logo'/>
             <br/><br/>
-            <ShowCase desc1='Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, consequuntur. Sapiente, quaerat, quam similique iure quod alias nobis itaque' button='Start Here'/>
+            <ShowCase desc1='Starting your first internship or graduate job can be daunting, so let us take the pressure off by answering all the questions for you!' button='Start Here'/>
             <Boxes content={box}/>
             <LearnSection/>
             <Footer/>
