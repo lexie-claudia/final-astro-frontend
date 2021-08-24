@@ -5,7 +5,7 @@ import RegistarionFormnavBar from './RegistrationScreenComponents/RegistrationFo
 const LoginScreen = () => {
     return (
         <div>
-            <RegistarionFormnavBar logo="Home"/>
+            <RegistarionFormnavBar logo="Login Page"/>
             <LoginForm />
         </div>
     )
