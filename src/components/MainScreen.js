@@ -27,7 +27,7 @@ const MainScreen = () => {
         <div>
             <NavBar title='Smart Intern'/>
             <br/><br/>
-            <ShowCase desc1='Starting your first internship or graduate job can be daunting, so let us take the pressure off by answering all the questions for you!' button='Start Here'/>
+            <ShowCase desc1='Starting your first internship or graduate job can be daunting, so let us take the pressure off by answering all the questions for you!' button='View Reviews!'/>
             <Boxes content={box}/>
             <LearnSection/>
             <Footer/>

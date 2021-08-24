@@ -1,5 +1,6 @@
 // showcase is everything under the navbar on our homepage plus the images/ button
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const ShowCase = (props) => {
     return (
@@ -14,13 +15,14 @@ const ShowCase = (props) => {
                             <p className="lead my-4">
                                 {props.desc1}
                             </p>
-                            <button
+                            <Link
                                 className="btn btn-primary btn-lg"
                                 data-bs-toggle="modal"
                                 data-bs-target="#enroll"
+                                to='/review'
                             >
                                 {props.button}
-                            </button>
+                            </Link>
                         </div>
                         <img
                             className="img-fluid w-50 d-none d-sm-block"
