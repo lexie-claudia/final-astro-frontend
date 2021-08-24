@@ -13,7 +13,7 @@ function RegistrationScreen() {
                     <RegistrationForm/>
                 </div>
                 <div className="col-12 col-md-6">
-                    <img className="registrationImage" src=''/>
+                    <img className="registrationImage" src="../img/working_from.svg"/>
                 </div>
             </div>       
            

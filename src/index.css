@@ -15,10 +15,24 @@ code {
 #registrationForm.container {
   align-items: left;
   justify-content: left;
-  color: blue;
-  border: 1px solid black;
+  color: black;
+  border: 1px solid lightgrey;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  padding-top: 20px;
+
 }
 
+#img.registrationImage{
+  background-colour: rgb(33,37,42); 
+  margin: 50px 10px;
+  align-items: center;
+  padding-top: 50px;
+  margin-top: 50px;
+}
+
+
 label {
-  color:blue;
+  color:black;
 }
