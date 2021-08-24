@@ -20,7 +20,7 @@ const Boxes = (props) => {
                                                 <p className="card-text">
                                                     {element.title}
                                                 </p>
-                                                <a href="#" className="btn btn-primary">Read More</a>
+                                               <br/><br/>
                                             </div>
                                         </div>
                                     </div>
