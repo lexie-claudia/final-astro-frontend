@@ -38,7 +38,7 @@ export const Form = ({
       <label htmlFor="restaurant">University Name</label>
       <input
         type="text"
-        placeholder="Restaurant name"
+        placeholder="University name"
         id="restaurant"
         name="restaurant"
         autoComplete="off"
