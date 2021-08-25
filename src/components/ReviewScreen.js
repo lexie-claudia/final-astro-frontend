@@ -1,7 +1,10 @@
 import React, { useState } from "react";
+import Footer from './Footer';
 import Form from "./ReviewScreen/Form";
 import "../App.css";
 import ReviewList from "./ReviewScreen/ReviewList";
+import RegistarionFormnavBar from './RegistrationScreenComponents/RegistrationFormNavBar';
+
 import {uuid} from 'uuidv4'
 
 function ReviewScreen() {
@@ -10,8 +13,10 @@ function ReviewScreen() {
   const [editing, setEditing] = useState(false);
 
   return (
-    <div className="app">
-      <h1>Internship Reviews</h1>
+   <div>
+    <div><RegistarionFormnavBar logo="Review Page"/></div>
+      <div className="app">
+      <h1>INTERNSHIP REVIEWS</h1>
       <Form
         editing={editing}
         form={form}
@@ -26,6 +31,8 @@ function ReviewScreen() {
         setEditing={setEditing}
         setReviews={setReviews}
       />
+    </div>
+    <Footer/>
     </div>
   );
 }

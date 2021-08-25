@@ -37,8 +37,15 @@
   }
   
   button {
-    border: 1px solid #0d0d0d;
-    cursor: pointer;
+    color: #fff;
+    background-color: #000000;
+    border-color: #000000;
+    border-radius: 7px;
+    margin-top: 26px;
+    font-style: italic;
+
+
+
   }
   
   h1,
@@ -84,4 +91,20 @@ nav.navbar.navbar-expand-lg.bg-dark.navbar-dark.py-3.fixed-top {
 }
 i.bi.bi-arrow-up-circle.h1 {
   color: #fff;
+}
+form.form {
+  margin: 127px;
+  padding: 25px;
+}
+.app {
+  background-color: #f9f5f5;
+}
+#root > div > div > div.app > h1 {
+  margin-top: 40px;
+  font-size: 35px;
+  color: rgb(179, 27, 57);
+
+}
+#root > div > div > div.app {
+  background-color: lightgray;
 }
