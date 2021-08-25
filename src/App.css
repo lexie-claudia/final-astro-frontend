@@ -54,4 +54,34 @@
     width: 20rem;
     margin-top: 1rem;
   }
-  
+  #root > div > div > div:nth-child(5) > section > div > div > div:nth-child(3) > div > div > p {
+    padding-bottom: 26px;
+}
+.btn-primary {
+  color: #000;
+  background-color: #ffffff;
+  border-color: #000000;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #000000;
+  border-color: #ffffff;
+}
+.btn-success {
+  color: #000;
+  background-color: #ffffff;
+  border-color: #000000;
+}
+.btn-success:hover {
+  color: #fff;
+  background-color: #000000;
+  border-color: #ffffff;
+}
+nav.navbar.navbar-expand-lg.bg-dark.navbar-dark.py-3.fixed-top {
+  box-shadow: 14px 9px 83px 6px rgb(0 0 0 / 75%);
+  -webkit-box-shadow: 14px 9px 83px 6px rgb(0 0 0 / 75%);
+  -moz-box-shadow: 14px 9px 83px 6px rgba(0,0,0,0.75);
+}
+i.bi.bi-arrow-up-circle.h1 {
+  color: #fff;
+}

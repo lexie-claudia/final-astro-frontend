@@ -26,7 +26,7 @@ const ShowCase = (props) => {
                         </div>
                         <img
                             className="img-fluid w-50 d-none d-sm-block"
-                            src="./img/showcase.svg"                            
+                            src="./img/un.svg"                            
                             alt=""
                         />
                     </div>
