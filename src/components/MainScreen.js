@@ -5,6 +5,7 @@ import Boxes from './Boxes';
 import LearnSection from './LearnSection';
 import Footer from './Footer';
 
+
 const MainScreen = () => {
     const box = [
         {
