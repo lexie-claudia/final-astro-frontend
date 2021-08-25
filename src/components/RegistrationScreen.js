@@ -2,6 +2,7 @@ import RegistrationForm from './RegistrationScreenComponents/RegistrationForm';
 // import the nav bar so we can navigate to different screens
 import RegistrationFormNavBar from './RegistrationScreenComponents/RegistrationFormNavBar';
 //import Footer from './Footer.js'
+import Footer from './Footer';
 
 function RegistrationScreen() {
     return (
@@ -17,8 +18,8 @@ function RegistrationScreen() {
                     style={{"marginTop":"368px","marginLeft":"110px"}}
                     src="../img/working_from.svg"/>
                 </div>
-            </div>       
-           
+            </div>      
+        <Footer/>
         </div>
     )
 };
