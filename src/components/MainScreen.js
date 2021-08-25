@@ -10,7 +10,7 @@ const MainScreen = () => {
         {
           header: 'Join our Network',
           title: 'Get access to comments and reviews from thousands of students about their internships.',
-          color: 'dark'                                                    
+          color: 'dark' // bootstrap color classes go here ex.(danger, warning, primary);
         },
         {
           header: 'Need Advice?',
