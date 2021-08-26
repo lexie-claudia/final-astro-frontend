@@ -12,6 +12,11 @@ code {
     monospace;
 }
 
+#icon{
+ color: white;
+ margin-right: 6px;
+}
+
 #registrationForm.container {
   align-items: left;
   justify-content: left;

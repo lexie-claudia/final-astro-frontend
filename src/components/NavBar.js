@@ -7,7 +7,10 @@ const NavBar = (props) => {
         <div>
             <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
                 <div class="container">
-                    <a href='' class="navbar-brand" style={{'fontSize':'25px'}}>{props.title}</a>
+                    <a href='' class="navbar-brand" style={{'fontSize':'25px'}}>
+                    <i className="fas fa-graduation-cap" id='icon'></i>
+                    {props.title}
+                    </a>
 
                     <button
                         class="navbar-toggler"

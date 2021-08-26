@@ -45,6 +45,7 @@ export const Form = ({
         value={form.restaurant}
         onChange={handleChange}
       />
+      <br/>
       <label htmlFor="company">Company your Interned at</label>
       <input
         type="text"
@@ -55,6 +56,7 @@ export const Form = ({
         value={form.company}
         onChange={handleChange}
       />
+      <br/>
       <label htmlFor="review">Review</label>
       <textarea
         value={form.review}
